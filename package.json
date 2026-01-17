@@ -1,0 +1,40 @@
+{
+  "name": "stickers-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that creates a collage from stickers sent by users.",
+  "main": "stickers-bot.js",
+  "scripts": {
+    "start": "node stickers-bot.js",
+    "dev": "nodemon stickers-bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sticker",
+    "collage",
+    "image-processing",
+    "canvas"
+  ],
+  "author": "3d@mail.ru",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "sharp": "^0.32.0",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudliy/stickersTelegramBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dudliy/stickersTelegramBot/issues"
+  },
+  "homepage": "https://github.com/dudliy/stickersTelegramBot#readme"
+}
